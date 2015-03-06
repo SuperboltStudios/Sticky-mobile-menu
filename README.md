@@ -7,4 +7,4 @@ Screenshots
 ![Screenshot](/Screenshots/desktop.png?raw=true "Desktop")
 
 # Mobile
-![Screenshot](/Screenshots/mobile.png?raw=true "mobile")
+![Screenshot](/Screenshots/mobile2.png?raw=true "mobile")
