@@ -1,0 +1,84 @@
+
+
+.bottom-menu ul {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  background: #333;
+}
+
+.bottom-menu li {
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
+  background: #333;
+}
+
+.bottom-menu li + li {
+  border-left: 2px solid #000;
+}
+
+.bottom-menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0.75em 1em;
+  font-size: 1.25em;
+}
+
+.bottom-menu a:hover, nav a:focus {
+  text-decoration: underline;
+}
+
+/* inline-block (wrapping) layout if there are 4 or more items */
+
+.bottom-menu li:nth-last-child(n+4), 
+.bottom-menu li:nth-last-child(n+4) ~ * {
+  display: inline-block;
+  border: 0;
+}
+
+.bottom-menu li:nth-last-child(n+4) a, 
+.bottom-menu li:nth-last-child(n+4) ~ * a {
+  display: inline-block;
+  border: 0;
+}
+
+/* boring stuff */
+
+bottom-menu {
+  margin-top: 3em;
+}
+
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+/*.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+	border: 1px solid transparent;
+    border-radius: 0px;
+}*/
+
+
+
+@media (min-width: 649px) {
+
+.navbar-fixed-bottom {
+	display:none;
+}
+
+}
